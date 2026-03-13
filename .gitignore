@@ -1,0 +1,28 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor files
+*.idea/
+*.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore OS-specific files
+*.swp
+*.bak
+*.tmp
+
+# Ignore node or composer dependencies (if any)
+node_modules/
+vendor/
+
+# Ignore log files
+*.log
+
+# Ignore WordPress core files (just in case someone copies the full site)
+wp-admin/
+wp-includes/
+
+# Ignore uploads (optional, large files)
+wp-content/uploads/
